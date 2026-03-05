@@ -41,7 +41,7 @@ async def about_you_handler(message: types.Message) -> None:
 
 
 async def main() -> None:
-    token = "8758193390:AAFYGdpHf0M9T-i1yGT2PNJ4xt_M9Tllodo"
+    token = "8792022664:AAE-U-kISO_5cmiP34ZfwFxXNlWUmyVLYpE"
     bot = Bot(token)
     await dp.start_polling(bot)
 
