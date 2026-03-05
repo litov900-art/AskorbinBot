@@ -32,7 +32,7 @@ async def about_me_handler(message: types.Message) -> None:
 
 @dp.message(F.text == 'Портфолио')
 async def portfolio_handler(message: types.Message) -> None:
-    await message.answer('Работаю с Python Aiogram3 SQLite\nБоты в работе:\n@AskorbinROBot\n@stepashka1564Bot')
+    await message.answer('Работаю с Python Aiogram3 SQLite\nБоты в работе:\n@FeniX1ROBOT\nГотовые боты:\n@AskorbinROBot\n@stepashka1564Bot')
 
 
 @dp.message(F.text == 'О тебе')
